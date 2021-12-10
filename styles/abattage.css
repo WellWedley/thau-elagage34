@@ -1,0 +1,158 @@
+:root {
+    /* Define colors  */
+    --main-orange: #FF8436;
+    --main-blue: #0A2D35;
+    --main-blue-green: #134B54;
+    --main-green: #6AD899;
+    --main-grey: #666666;
+    --main-white: #fff;
+    --main-shadow: 7px 7px 20px 15px rgba(54, 77, 92, 0.19);
+}
+
+.intro_wrap {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--main-green);
+    box-shadow: var(--main-shadow);
+    width: 100%;
+    height: 29vw;
+    padding-top: 5%;
+    top: 6vw;
+    z-index: 1;
+}
+
+
+/* IMAGE PALMIERS */
+
+.palmtree_wrap {
+    position: absolute;
+    left: 3vw;
+    bottom: -.2vw;
+}
+
+.palmtree_img {
+    height: 26vw;
+}
+
+
+/* Texte dans le cadre ÉLAGAGE */
+
+.devis_wrap {
+    position: relative;
+    top: -6vw;
+    text-align: center;
+    color: var(--main-white);
+}
+
+.devis_wrap div {
+    position: absolute;
+    left: 25vw;
+    top: 10vw;
+    width: 50vw;
+    font-size: 2.3vw;
+}
+
+.devis_wrap h1 {
+    position: relative;
+    top: 2vw;
+    font-size: 4.5vw;
+}
+
+
+/* IMAGE SAPINS  */
+
+.sapins_wrap {
+    position: absolute;
+    right: 3vw;
+    bottom: -3.5vw;
+}
+
+.sapins_img {
+    max-width: 100%;
+    height: 26vw;
+}
+
+
+/*---------------------------   SECOND ÉCRAN   --------------------------   SECOND ÉCRAN    ----------------------------- */
+
+.number {
+    position: relative;
+    top: 40vw;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 45vw;
+}
+
+.savoir_details_wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    top: 3.5vw;
+    color: var(--main-white);
+    background-color: var(--main-white);
+}
+
+.savoir_details_picture,
+.savoir_details_picture1 {
+    max-height: 100%;
+    width: 100%;
+}
+
+.savoir_details_wrap div {
+    position: relative;
+    top: -2vw;
+}
+
+.savoir_details_text {
+    background-color: var(--main-blue-green);
+    padding: 2.5vw;
+    /* margin-left: 2vw; */
+    position: relative;
+}
+
+.point {
+    color: var(--main-orange);
+    font-size: 2vw;
+}
+
+.savoir_details_text p {
+    font-size: 2.3vw;
+    width: 22vw;
+}
+
+.service_header {
+    top: 42vw;
+}
+
+.nos_services {
+    top: 42vw;
+}
+
+
+/* footer */
+
+footer {
+    top: 133vw;
+}
+
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width:768px) {
+    .devis_wrap h1 {
+        top: 4vw;
+    }
+    .devis_wrap div {
+        top: 9vw;
+        left: 22vw;
+        width: 55vw;
+        font-size: 2.7vw;
+    }
+    footer {
+        top: 210vw;
+    }
+}

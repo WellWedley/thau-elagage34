@@ -1,0 +1,237 @@
+:root {
+    /* Define colors  */
+    --main-orange: #FF8436;
+    --main-blue: #0A2D35;
+    --main-blue-green: #134B54;
+    --main-green: #6AD899;
+    --main-grey: #666666;
+    --main-white: #fff;
+    --main-shadow: 7px 7px 25px 15px rgba(54, 77, 92, 0.19);
+}
+
+.intro_wrap {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--main-green);
+    box-shadow: var(--main-shadow);
+    width: 100%;
+    height: 29vw;
+    padding-top: 5%;
+    top: 6vw;
+    z-index: 1;
+}
+
+.palmtree_wrap {
+    position: absolute;
+    left: 3vw;
+    bottom: -.2vw;
+}
+
+.palmtree_img {
+    max-width: 100%;
+    height: 26vw;
+}
+
+
+/* Texte dans le cadre ÉLAGAGE */
+
+.devis_wrap {
+    position: relative;
+    top: -5vw;
+    text-align: center;
+    color: var(--main-white);
+}
+
+
+/* .devis_wrap p {
+    position: relative;
+    top: -4vw;
+} */
+
+.devis_wrap div {
+    position: relative;
+    top: -1.5vw;
+    width: 55vw;
+    left: 20.5vw;
+    font-size: 2.3vw;
+}
+
+.devis_wrap h1 {
+    font-size: 4.5vw;
+}
+
+.sapins_wrap {
+    position: absolute;
+    right: 1vw;
+    bottom: 0;
+}
+
+.sapins_img {
+    height: 26vw;
+}
+
+
+/*---------------------------   SECOND ÉCRAN   --------------------------   SECOND ÉCRAN    ----------------------------- */
+
+.number {
+    position: relative;
+    top: 40vw;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 45vw;
+}
+
+.savoir_details_picture {
+    max-height: 100%;
+    width: 100%;
+}
+
+.savoir_details_wrap {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    top: 3.5vw;
+    color: var(--main-white);
+    background-color: var(--main-white);
+}
+
+.savoir_details_text {
+    background-color: var(--main-blue-green);
+    padding: 2.5vw;
+    margin-left: 2vw;
+    position: relative;
+}
+
+.point {
+    color: var(--main-orange);
+    font-size: 2vw;
+}
+
+.savoir_details_text p {
+    font-size: 2.3vw;
+    width: 22vw;
+}
+
+
+/* OUTRO */
+
+.outro_espaces_verts {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 30vw;
+    top: 90vw;
+    justify-content: start;
+    padding: 2vw 0;
+}
+
+.outro_description_wrap {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--main-green);
+    width: 75%;
+    box-shadow: var(--main-shadow);
+    font-size: 2.4vw;
+    color: #fff;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-right: 2%;
+}
+
+.green_description1,
+.green_description2 {
+    position: relative;
+    top: 1.3vw;
+}
+
+.outro_description_text2 {
+    position: relative;
+    top: -3.5vw;
+}
+
+.outro_description_text3 {
+    position: relative;
+    top: -5vw;
+}
+
+.outro_point1 {
+    position: relative;
+    top: -2vw;
+}
+
+.outro_point2 {
+    position: relative;
+    top: -4.5vw;
+}
+
+.outro_point3 {
+    position: relative;
+    top: -6vw;
+}
+
+.outro_img_wrap {
+    width: 28%;
+    overflow-y: hidden;
+}
+
+.outro_img_content {
+    max-width: 100%;
+    height: 42vw;
+}
+
+
+/* FOOTER */
+
+footer {
+    top: 170vw;
+}
+
+
+/* NOS SERVICES  */
+
+.nos_services,
+.service_header {
+    top: 78vw;
+}
+
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width:768px) {
+    .intro_wrap {
+        height: 42vw;
+    }
+    .devis_wrap h1 {
+        position: relative;
+        top: 3vw;
+    }
+    .devis_wrap div {
+        top: 1vw;
+        font-size: 2.7vw;
+    }
+    /* SECOND ÉCRAN  */
+    .number {
+        top: 52vw;
+    }
+    .savoir_details_text p {
+        position: relative;
+        top: -2vw;
+    }
+    /* OUTRO */
+    .outro_espaces_verts {
+        top: 100vw;
+    }
+    /* NOS SERVICES  */
+    .nos_services,
+    .service_header {
+        top: 88vw;
+    }
+    footer {
+        top: 255vw;
+    }
+}
