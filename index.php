@@ -13,7 +13,7 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <?php
-    include_once './/pages/header.php';
+    include_once './pages/header.php';
     ?>
     <div class="class=global_wrap">
         <div>
@@ -47,6 +47,7 @@
                 <div class="orange_box">
                     <p>INTERVENTIONS SUR
                         TOUS TYPES D’ARBRES,
+
                         D’HAUTEURS ET TOUS
                         TYPES DE SURFACES
                     </p>
@@ -178,7 +179,7 @@
         </div>
     </div>
 
-    <?php include_once './/pages/footer.php' ?>
+    <?php include_once './pages/footer.php' ?>
 
 </body>
 

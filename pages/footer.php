@@ -1,6 +1,12 @@
-<footer>
+<?php
+include_once'libraries/utils.php';
+?>
+<footer>       <?php
+    tagForCookies() ;
+    ?>
     <div class="footer_wrap">
         <!-- Axeptio's cookies scripts -->
+
         <div class="outro_wrap">
             <div class="grey_tree_wrap">
                 <img class="grey_tree_img" src="/img/icons/tree_one.png" alt="Illustration d'un arbre gris.">
