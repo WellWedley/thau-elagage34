@@ -47,6 +47,7 @@
                 <div class="orange_box">
                     <p>INTERVENTIONS SUR
                         TOUS TYPES D’ARBRES,
+
                         D’HAUTEURS ET TOUS
                         TYPES DE SURFACES
                     </p>
