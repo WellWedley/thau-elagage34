@@ -13,7 +13,7 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <?php
-    include_once './/pages/header.php';
+    include_once './pages/header.php';
     ?>
     <div class="class=global_wrap">
         <div>
@@ -179,7 +179,7 @@
         </div>
     </div>
 
-    <?php include_once './/pages/footer.php' ?>
+    <?php include_once './pages/footer.php' ?>
 
 </body>
 
