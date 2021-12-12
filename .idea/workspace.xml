@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1333669e-13a3-4350-acd4-6ae67138cc39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/taille_haies.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/taille_haies.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,8 @@
       <updated>1639142659755</updated>
       <workItem from="1639142662723" duration="918000" />
       <workItem from="1639158183256" duration="852000" />
-      <workItem from="1639159079277" duration="2290000" />
+      <workItem from="1639159079277" duration="2967000" />
+      <workItem from="1639315529426" duration="24000" />
     </task>
     <servers />
   </component>
