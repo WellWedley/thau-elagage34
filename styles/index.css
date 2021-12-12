@@ -1,0 +1,441 @@
+/* ----------   1 index.php    ---------- */
+
+:root {
+    /* Define colors  */
+    --main-orange: #FF8436;
+    --main-blue: #0A2D35;
+    --main-blue-green: #134B54;
+    --main-green: #6AD899;
+    --main-grey: #666666;
+    --main-white: #fff;
+    --main-shadow: 7px 7px 20px 15px rgba(54, 77, 92, 0.19);
+}
+
+.intro_wrap {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--main-green);
+    box-shadow: var(--main-shadow);
+    width: 100%;
+    height: 29vw;
+    padding-top: 5vh;
+    top: 6vw;
+    z-index: 1;
+}
+
+.tailleur_wrap {
+    position: absolute;
+    left: 5vw;
+    bottom: -.2vw;
+}
+
+.tailleur_img {
+    height: 26vw;
+}
+
+.intro_logo_wrap {
+    position: relative;
+    top: -3vw;
+    text-align: center;
+}
+
+.intro_logo_img {
+    height: 18vw;
+}
+
+.devis_wrap {
+    position: relative;
+    top: -9vw;
+    text-align: center;
+}
+
+.devis_wrap h1 {
+    color: var(--main-white);
+    font-size: 4.5vw;
+}
+
+.devis_wrap a {
+    position: relative;
+    top: -2vw;
+    color: var(--main-white);
+    font-size: 4.5vw;
+}
+
+.four_trees_wrap {
+    position: absolute;
+    right: 23vw;
+    bottom: 0;
+}
+
+.four_trees_img {
+    height: 12vw;
+}
+
+.palmtree_wrap {
+    position: absolute;
+    right: 10vw;
+    bottom: 0;
+}
+
+.palmtree_img {
+    height: 26vw;
+}
+
+
+/*---------------------------   SECOND ÉCRAN   --------------------------   SECOND ÉCRAN    ----------------------------- */
+
+.second_wrap {
+    position: relative;
+    background-color: var(--main-white);
+    box-shadow: 30px 10px -20px black;
+    height: 100%;
+    top: 36vw;
+    width: 100%;
+}
+
+.second_wrap_main_img {
+    max-width: 100%;
+    height: 46.7vw;
+}
+
+.orange_box {
+    position: absolute;
+    right: 6vw;
+    top: 20%;
+    width: 25vw;
+    height: 30vw;
+    background-color: var(--main-orange);
+}
+
+.bended_tree {
+    position: relative;
+    max-width: 100%;
+    height: 13vw;
+    top: -43vw;
+    right: -72vw;
+    z-index: 2;
+}
+
+.orange_box p {
+    position: relative;
+    top: 3vw;
+    color: var(--main-white);
+    font-size: 2.3vw;
+    margin: 3vw 3.5vw;
+}
+
+
+/* SAVOIR FAIRE   /!\ SECOND ÉCRAN  /!\*/
+
+.second_ecran {
+    position: relative;
+    top: -7.8vw;
+}
+
+.savoir_faire {
+    position: relative;
+    top: 29.3vw;
+    height: 18vw;
+    width: 100vw;
+    background-color: var(--main-blue-green);
+    box-shadow: var(--main-shadow);
+}
+
+.savoir_faire p {
+    position: absolute;
+    color: var(--main-white);
+    font-size: 5vw;
+    top: 10%;
+    left: 20%;
+}
+
+.grey_tree_one_service {
+    max-width: 100%;
+    height: 15vw;
+    position: absolute;
+    bottom: 0;
+    left: 3vw;
+}
+
+.grey_tree_four_service {
+    max-width: 100%;
+    height: 15vw;
+    position: absolute;
+    bottom: 0;
+    right: 3vw;
+}
+
+.service_header {
+    top: 30vw;
+}
+
+.nos_services {
+    top: 27vw;
+}
+
+.above_number {
+    width: 100%;
+    height: 60vw;
+}
+
+.number {
+    position: relative;
+    top: 30vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.number_link_wrap {
+    position: relative;
+    width: 100vw;
+    height: 20vw;
+    background-color: var(--main-blue-green);
+    color: var(--main-white);
+    text-align: center;
+    box-shadow: var(--main-shadow);
+    z-index: 1;
+}
+
+.number_link {
+    position: relative;
+    top: 7vw;
+    font-size: 7vw;
+}
+
+.grey_tree_tel {
+    position: absolute;
+    left: 15vw;
+    max-width: 100%;
+    height: 18vw;
+    bottom: 0;
+}
+
+.second_grey_tree_tel {
+    position: absolute;
+    right: 15vw;
+    max-width: 100%;
+    height: 18vw;
+    bottom: 0;
+}
+
+.savoir_details_wrap {
+    display: flex;
+    width: 100vw;
+    height: 70vw;
+    position: relative;
+    top: 2vw;
+    color: var(--main-white);
+    background-color: var(--main-white);
+}
+
+.savoir_details_text h2 {
+    position: relative;
+    bottom: 2vw;
+    font-size: 5vw;
+}
+
+.set_width_for_savoir_faire {
+    position: relative;
+    bottom: 4vw;
+}
+
+.savoir_details_text {
+    background-color: var(--main-blue-green);
+    padding: 2.5vw;
+    margin-right: 2vw;
+}
+
+.point {
+    color: var(--main-orange);
+    font-size: 2vw;
+}
+
+.savoir_details_text p {
+    position: relative;
+    left: 12.5%;
+    font-size: 2vw;
+    width: 76%;
+}
+
+.savoir_details_picture {
+    max-height: 100%;
+    width: 50vw;
+}
+
+
+/* SUR MESURE */
+
+.sur_mesure_wrap {
+    position: relative;
+    top: 26vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sur_mesure_head {
+    background-color: var(--main-blue-green);
+    color: var(--main-white);
+    width: 100%;
+    height: 10vw;
+    text-align: center;
+    font-size: 3.5vw;
+    margin-bottom: 3vw;
+    box-shadow: var(--main-shadow);
+}
+
+.sur_mesure_head h3 {
+    position: relative;
+    top: -1vw;
+}
+
+.place_heart_euro_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: var(--main-white);
+    font-size: 3vw;
+}
+
+.place_box,
+.heart_box,
+.euro_box {
+    padding: 1vw;
+    text-align: center;
+    width: 17vw;
+    height: 23vw;
+}
+
+.place_box img,
+.heart_box img,
+.euro_box img {
+    margin-top: 2.5vw;
+    max-width: 100%;
+    height: 8vw;
+}
+
+.place_box {
+    background-color: var(--main-blue-green);
+}
+
+.heart_box {
+    background-color: var(--main-green);
+}
+
+.euro_box {
+    background-color: var(--main-orange);
+}
+
+
+/* LAST ROW : GREEN TREE */
+
+.num_green_tree_wrap {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.green_tree_img_left {
+    max-height: 100%;
+    width: 65vw;
+}
+
+.tel_green_tree_box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.tel_green_tree_box div a {
+    position: relative;
+    top: 5vw;
+    color: var(--main-blue);
+    font-size: 4.5vw;
+}
+
+.green_tree {
+    position: absolute;
+    bottom: 3.5vw;
+    right: 3vw;
+    max-width: 100%;
+    height: 30vw;
+}
+
+
+/* FOOTER */
+
+footer {
+    top: 386vw;
+}
+
+.outro_wrap {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .second_wrap {
+        top: 39vw;
+        background-color: var(--main-orange);
+    }
+    .devis_wrap {
+        top: -10vw;
+    }
+    .devis_wrap h1,
+    .devis_wrap a {
+        font-size: 5vw;
+    }
+    .four_trees_wrap {
+        bottom: -1vw;
+    }
+    .four_trees_img {
+        height: 10vw;
+    }
+    /* SECOND ÉCRAN */
+    .second_ecran {
+        position: relative;
+        top: 8vw;
+    }
+    .orange_box {
+        top: 0;
+    }
+    .orange_box p {
+        top: 12vw;
+        font-size: 3.3vw;
+        margin: 0;
+    }
+    .bended_tree {
+        display: none;
+    }
+    /* NOTRE SAVOIR-FAIRE */
+    .savoir_details_wrap {
+        height: 91vw;
+    }
+    .set_width_for_savoir_faire {
+        width: 55vw;
+    }
+    .savoir_details_text h2 {
+        font-size: 6.5vw;
+    }
+    .savoir_details_text p {
+        font-size: 2.7vw;
+        left: 7.5%;
+        top: -3vw;
+        width: 85%;
+    }
+    .savoir_details_picture {
+        max-width: 100%;
+        height: 91vw;
+    }
+    /* SUR MESURE WRAP */
+    .sur_mesure_wrap {
+        top: 43vw;
+    }
+    /* FOOTER */
+    footer {
+        top: 488vw;
+    }
+}

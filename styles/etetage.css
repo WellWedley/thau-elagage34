@@ -1,0 +1,202 @@
+:root {
+    /* Define colors  */
+    --main-orange: #FF8436;
+    --main-blue: #0A2D35;
+    --main-blue-green: #134B54;
+    --main-green: #6AD899;
+    --main-grey: #666666;
+    --main-white: #fff;
+    --main-shadow: 7px 7px 20px 15px rgba(54, 77, 92, 0.19);
+}
+
+.etetage_intro_wrap {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--main-green);
+    box-shadow: var(--main-shadow);
+    width: 100%;
+    height: 29vw;
+    padding-top: 5%;
+    top: 6vw;
+    z-index: 1;
+}
+
+.etetage_tailleur_wrap {
+    position: absolute;
+    left: 3vw;
+    bottom: -.2vw;
+}
+
+.etetage_tailleur_img {
+    height: 26vw;
+}
+
+
+/* Texte dans le cadre ÉLAGAGE */
+
+.etetage_devis_wrap {
+    position: relative;
+    top: -5vw;
+    text-align: center;
+    color: var(--main-white);
+}
+
+.etetage_devis_wrap div {
+    position: absolute;
+    left: 25vw;
+    top: 9vw;
+    width: 50vw;
+    font-size: 2.3vw;
+}
+
+.etetage_palmtree_wrap {
+    position: absolute;
+    right: 3vw;
+    bottom: 0;
+}
+
+.etetage_devis_wrap h1 {
+    font-size: 4.5vw;
+}
+
+.etetage_palmtree_img {
+    height: 26vw;
+}
+
+
+/* DEUX IMAGES ACCOLÉES  */
+
+.etetage_number {
+    position: relative;
+    top: 40vw;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 45vw;
+}
+
+
+/* SLIDER*/
+
+.slider_wrap {
+    display: flex;
+    gap: 1.5vw;
+    max-width: 70vw;
+    height: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-padding: 1rem;
+    background-color: var(--main-blue);
+}
+
+
+/* .mouse_over {
+    position: absolute;
+    z-index: 1;
+    left: 24%;
+    bottom: 20%;
+     overflow: hidden;  
+    max-width: 20%;
+    height: 19vw;
+}
+
+.mouse_over:hover {
+    transform: translate(-50%);
+}  */
+
+.section__item {
+    --stop: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 200px;
+    width: 30vw;
+    height: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: var(--stop);
+}
+
+.section_img_content {
+    max-height: 100%;
+    width: 70vw;
+}
+
+.etetage_savoir_details_picture1 {
+    max-height: 100%;
+    width: 30vw;
+}
+
+.etetage_savoir_details_wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+    top: 3.5vw;
+    color: var(--main-white);
+    background-color: var(--main-white);
+}
+
+.etetage_savoir_details_text {
+    margin-left: 2vw;
+}
+
+
+/* FOOTER */
+
+footer {
+    top: 127vw;
+}
+
+
+/* NOS SERVICES  */
+
+.nos_services,
+.service_header {
+    top: 37vw;
+}
+
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width:768px) {
+    .etetage_intro_wrap {
+        height: 33vw;
+    }
+    .etetage_devis_wrap h1 {
+        position: relative;
+        top: 3vw;
+    }
+    .etetage_devis_wrap div {
+        top: 8.5vw;
+        font-size: 2.7vw;
+    }
+    /* SECOND ÉCRAN  */
+    .etetage_number {
+        top: 45vw;
+    }
+    /* OUTRO */
+    .outro_espaces_verts {
+        top: 100vw;
+    }
+    /* NOS SERVICES  */
+    .nos_services,
+    .service_header {
+        top: 45vw;
+    }
+    footer {
+        top: 212vw;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .section__item {
+        flex: 0 0 50px;
+    }
+    .section_img_content {
+        max-height: 100%;
+        width: 30vw;
+    }
+}
