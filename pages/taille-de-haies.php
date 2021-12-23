@@ -95,7 +95,7 @@
         <!-- MAIN WRAP ENDING  -->
     </div>
 
-    <?php include_once 'footer.php'; ?>
+    <?php include_once 'pages/footer.php'; ?>
 </body>
 
 </html>

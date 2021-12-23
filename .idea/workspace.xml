@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1333669e-13a3-4350-acd4-6ae67138cc39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="1333669e-13a3-4350-acd4-6ae67138cc39" name="Changes" comment="footer display bug's fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/abattage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/abattage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/elagage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/elagage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/espaces-verts.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/espaces-verts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/etetage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/etetage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/taille-de-haies.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/taille-de-haies.php" afterDir="false" />
+>>>>>>> dev
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +58,14 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="git log" />
-      <command value="git status " />
       <command value="ls " />
       <command value="php -S localhost:3000" />
+<<<<<<< HEAD
       <command value="php -S localhost:5000" />
       <command value="php -S localhost:8000" />
+=======
+      <command value="git status " />
+>>>>>>> dev
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,12 +79,17 @@
       <workItem from="1639142662723" duration="918000" />
       <workItem from="1639158183256" duration="852000" />
       <workItem from="1639159079277" duration="2967000" />
-      <workItem from="1639315529426" duration="293000" />
+      <workItem from="1639315529426" duration="4220000" />
+      <workItem from="1640298761169" duration="1260000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="footer display bug's fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer display bug's fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
