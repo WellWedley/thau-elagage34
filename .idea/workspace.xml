@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1333669e-13a3-4350-acd4-6ae67138cc39" name="Changes" comment="footer display bug's fix">
+    <list default="true" id="a5a2ac4f-8a0b-45c8-a914-55d7dda50045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/abattage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/abattage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/elagage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/elagage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/espaces-verts.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/espaces-verts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/etetage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/etetage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/taille-de-haies.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/taille-de-haies.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +12,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="dev" />
+    <option name="OPTIONS">
+      <set>
+        <option value="SQUASH" />
+      </set>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
