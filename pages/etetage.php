@@ -114,11 +114,10 @@
         </div>
         <!-- MAIN WRAP ENDING -->
     </div>
-<<<<<<< HEAD
+
     <?php include_once 'footer.php'; ?>
-=======
+
     <?php include_once 'pages/footer.php' ; ?>
->>>>>>> e233ac51a236102a3a885ea448207db63260b3cf
 </body>
 
 </html>
