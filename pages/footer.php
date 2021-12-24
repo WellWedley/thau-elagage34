@@ -1,11 +1,13 @@
 <?php
 require_once ('libraries/utils.php');
 ?>
-<footer>       
+<footer>
     <?php
-
-
-    tagForCookies() ;
+    /*
+     * Fonction pour intégrer les cookies
+     */
+include_once 'libraries/utils.php';
+     tagForCookies();
     ?>
     <div class="footer_wrap">
         <!-- Axeptio's cookies scripts -->
