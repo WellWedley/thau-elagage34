@@ -114,7 +114,7 @@
         </div>
         <!-- MAIN WRAP ENDING -->
     </div>
-    <?php include_once './pages/footer.php'; ?>
+    <?php include_once './pages/footer.php' ?>
 </body>
 
 </html>
