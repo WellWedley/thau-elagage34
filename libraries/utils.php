@@ -4,7 +4,7 @@
  */
 
 function tagForCookies(){
-   echo '<script>
+   $axeptioScript = '<script>
 window.axeptioSettings = {
   clientId: "61b60a0d0c9ed4377d951b63",
   cookiesVersion: "thau-elagage34-base",
@@ -16,6 +16,7 @@ window.axeptioSettings = {
   t.parentNode.insertBefore(e, t);
 })(document, "script");
 </script>' ;
+   return $axeptioScript ;
 
 }
 
