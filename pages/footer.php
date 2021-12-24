@@ -1,5 +1,5 @@
 <?php
-include_once'libraries/utils.php';
+include_once './libraries/utils.php';
 ?>
 <footer>       <?php
     tagForCookies() ;
