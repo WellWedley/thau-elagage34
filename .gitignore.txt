@@ -1,2 +1,7 @@
 .DS_STORE
+<<<<<<< HEAD
 ./idea
+=======
+.idea/*
+.idea/workspace.xml
+>>>>>>> 677e55160dece1c5c6b314d0a1486179711d763c

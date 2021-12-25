@@ -9,6 +9,7 @@
     <list default="true" id="1333669e-13a3-4350-acd4-6ae67138cc39" name="Changes" comment="footer display bug's fix">
 =======
     <list default="true" id="1a708642-625a-4900-8027-d44a61e24959" name="Changes" comment="">
+<<<<<<< HEAD
 >>>>>>> 33c9209b9df745ed2c998563ae1221ac3bbeb7f1
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/abattage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/abattage.php" afterDir="false" />
@@ -18,6 +19,9 @@
       <change beforePath="$PROJECT_DIR$/pages/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/taille-de-haies.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/taille-de-haies.php" afterDir="false" />
 >>>>>>> dev
+=======
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
+>>>>>>> 677e55160dece1c5c6b314d0a1486179711d763c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
