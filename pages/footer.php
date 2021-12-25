@@ -11,7 +11,7 @@ window.axeptioSettings = {
   e.async = true; e.src = "//static.axept.io/sdk.js";
   t.parentNode.insertBefore(e, t);
 })(document, "script");
-</script>'
+</script>
 
     <div class="footer_wrap">
         <!-- Axeptio's cookies scripts -->
