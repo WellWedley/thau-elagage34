@@ -179,7 +179,7 @@
         </div>
     </div>
 
-    <?php include_once './pages/footer.php' ?>
+    <?php include_once 'pages/footer.php' ?>
 
 </body>
 
