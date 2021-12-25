@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a708642-625a-4900-8027-d44a61e24959" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/abattage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/abattage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/elagage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/elagage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/error404.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/error404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/espaces-verts.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/espaces-verts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/taille-de-haies.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/taille-de-haies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
