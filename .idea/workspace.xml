@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a708642-625a-4900-8027-d44a61e24959" name="Changes" comment="" />
+    <list default="true" id="1a708642-625a-4900-8027-d44a61e24959" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pages/etetage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/etetage.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
