@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a708642-625a-4900-8027-d44a61e24959" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/etetage.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/etetage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/utils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

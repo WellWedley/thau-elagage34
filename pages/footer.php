@@ -1,14 +1,6 @@
-<?php
-require_once ('libraries/utils.php');
-?>
-<footer>
-    <?php
-    /*
-     * Fonction pour intégrer les cookies
-     */
 
-    function tagForCookies(){
-    return    '<script>
+<footer>
+  <script>
 window.axeptioSettings = {
   clientId: "61b60a0d0c9ed4377d951b63",
   cookiesVersion: "thau-elagage34-base",
@@ -19,11 +11,8 @@ window.axeptioSettings = {
   e.async = true; e.src = "//static.axept.io/sdk.js";
   t.parentNode.insertBefore(e, t);
 })(document, "script");
-</script>' ;
+</script>'
 
-    }
-    tagForCookies();
-    ?>
     <div class="footer_wrap">
         <!-- Axeptio's cookies scripts -->
 
