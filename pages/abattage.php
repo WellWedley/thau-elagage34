@@ -104,10 +104,6 @@
         <!--  MAIN WRAP ENDING  -->
     </div>
 
-
-
-
-
     <?php include_once 'pages/footer.php'; ?>
 </body>
 
