@@ -1,6 +1,6 @@
 <?php
 function tagForCookies(){
-   ' <script>
+  echo ' <script>
     window.axeptioSettings = {
           clientId: "61b60a0d0c9ed4377d951b63",
   cookiesVersion: "thau-elagage34-base",
@@ -14,3 +14,4 @@ function tagForCookies(){
 </script>' ;
 
 }
+?>

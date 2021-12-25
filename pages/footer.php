@@ -2,7 +2,9 @@
     include_once 'libraries/utils.php';
 ?>
 <footer>
-    
+    <?php
+    tagForCookies(); 
+    ?>
     <div class="footer_wrap">
         <!-- Axeptio's cookies scripts -->
 
