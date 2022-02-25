@@ -73,8 +73,8 @@ if ($curPageName == 'index.php') {
     echo '<link rel="stylesheet"  href="/styles/etetage.css"/>';
     $nomPublic = "Étêtage ";
 } else if ($curPageName == 'mentions-legales.php') {
-    echo '<link rel="stylesheet"  href="/styles/style_contact.css"/>';
-    echo '<link rel="stylesheet"  href="/styles/mentions.css"/>';
+
+    echo '<link rel="stylesheet"  href="/styles/mentions-legales.css"/>';
     $nomPublic = "Mentions légales ";
 }
 ?>

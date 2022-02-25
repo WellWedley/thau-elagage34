@@ -15,19 +15,30 @@
     include_once './header.php';
     ?>
     <div class="mentions_wrap">
-        <h1 class="mentions_title">Conformité</h1>
+        <div class="mentions_title">
+        <h1 class="mentions_title">MENTIONS LÉGALES</h1>
+        </div>
+        <div class="mention-details identification">
+            <h1>IDENTIFICATION </h1>
+            <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
 
-        <ul class="list_mentions">
-            <li>
-            </li>
-            <li>
-            </li>
-            <li>
-            </li>
-            <li>
+        </div>
+        <div class="mention-details owner">
+            <h1>PROPRIÉTAIRE </h1>
+            <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
 
-            </li>
-        </ul>
+        </div>
+        <div class="mention-details creator">
+            <h1>CONCEPTEUR </h1>
+            <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+
+        </div>
+        <div class="mention-details hosting">
+            <h1>HÉBERGEMENT </h1>
+            <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+
+        </div>
+
     </div>
     <?php include_once 'footer.php' ?>
 </body>
