@@ -6,11 +6,11 @@
     width: 80%;
     height: 200vh;
     margin: 10vw 10vw;
-    background-color: #0c7f21;
     text-align: center;
     color: #ffffff;
 }
 .mentions_title{
+    color: #0A2D35;
     font-size: 5vw;
     text-align: center;
 }
