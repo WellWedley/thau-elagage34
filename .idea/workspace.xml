@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="1333669e-13a3-4350-acd4-6ae67138cc39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 =======
@@ -22,6 +23,11 @@
 =======
       <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
 >>>>>>> 677e55160dece1c5c6b314d0a1486179711d763c
+=======
+    <list default="true" id="1a708642-625a-4900-8027-d44a61e24959" name="Changes" comment="mentions-legales.css page added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/mentions-legales.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/mentions-legales.css" afterDir="false" />
+>>>>>>> ea4e53e8081e12c38f588290e92757cb5a80a434
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +64,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="2260JkqdYOl82wMJf2oR08O3ski" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -68,6 +75,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -93,7 +101,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a5a2ac4f-8a0b-45c8-a914-55d7dda50045" name="Changes" comment="" />
+      <changelist id="1a708642-625a-4900-8027-d44a61e24959" name="Changes" comment="" />
       <created>1639142659755</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -104,7 +112,24 @@
       <workItem from="1639315529426" duration="4220000" />
       <workItem from="1640298761169" duration="1260000" />
       <workItem from="1640332927211" duration="3343000" />
+      <workItem from="1645803153314" duration="803000" />
+      <workItem from="1645808811110" duration="4093000" />
     </task>
+    <task id="LOCAL-00001" summary="mentions-legales.css page added">
+      <created>1645812860868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645812860868</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mentions-legales.css page added">
+      <created>1645813054482</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645813054482</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="footer display bug's fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer display bug's fix" />
+    <MESSAGE value="mentions-legales.css page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="mentions-legales.css page added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

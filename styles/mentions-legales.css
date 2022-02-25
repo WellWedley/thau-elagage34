@@ -1,0 +1,31 @@
+.mentions_wrap{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 200vh;
+    margin: 10vw 10vw;
+    text-align: center;
+    color: #ffffff;
+}
+.mentions_title{
+    color: #0A2D35;
+    font-size: 5vw;
+    text-align: center;
+}
+.mention-details{
+    margin-top: 2.5vw;
+    width: 80%;
+    height: 20%;
+    background-color: #0A2D35;
+    border-radius: .8vw;
+}
+.mention-details p {
+    font-size: 1.5vw;
+}
+
+
+footer{
+    top: 120vw;
+}
