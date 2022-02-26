@@ -1,31 +1,44 @@
+ul{
+    list-style-type: none;
+    font-size: 2vw;
+
+}
+
 .mentions_wrap{
 
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 80%;
-    height: 200vh;
+    height:auto;
     margin: 10vw 10vw;
     text-align: center;
     color: #ffffff;
+
 }
 .mentions_title{
     color: #0A2D35;
-    font-size: 5vw;
     text-align: center;
+
 }
 .mention-details{
-    margin-top: 2.5vw;
-    width: 80%;
-    height: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.2vw;
+    width: 75%;
     background-color: #0A2D35;
     border-radius: .8vw;
+    align-content: center;
+    padding: 2.5vh 5vw;
+    font-size: 3vh;
+
 }
-.mention-details p {
-    font-size: 1.5vw;
-}
+
+
+
+
 
 
 footer{
-    top: 120vw;
+    top: 400vh;
 }
