@@ -1,7 +1,6 @@
 ul{
     list-style-type: none;
     font-size: 2vw;
-
 }
 
 .mentions_wrap{
@@ -14,30 +13,24 @@ ul{
     margin: 10vw 10vw;
     text-align: center;
     color: #ffffff;
-
 }
+
 .mentions_title{
     color: #0A2D35;
     text-align: center;
-
 }
+
 .mention-details{
     display: flex;
     flex-direction: column;
     margin-top: 2.2vw;
-    width: 75%;
+    width: 80%;
     background-color: #0A2D35;
     border-radius: .8vw;
     align-content: center;
     padding: 2.5vh 5vw;
     font-size: 3vh;
-
 }
-
-
-
-
-
 
 footer{
     top: 400vh;
