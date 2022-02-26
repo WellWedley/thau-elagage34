@@ -24,7 +24,7 @@ ul{
     display: flex;
     flex-direction: column;
     margin-top: 2.2vw;
-    width: 80%;
+    width: 85%;
     background-color: #0A2D35;
     border-radius: .8vw;
     align-content: center;
@@ -33,5 +33,5 @@ ul{
 }
 
 footer{
-    top: 400vh;
+    top: 420vh;
 }
