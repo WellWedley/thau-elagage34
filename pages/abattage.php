@@ -60,7 +60,7 @@
                             Nous travaillons avec du
                             matériel professionnel et
                             sécurisé pour effectuer un
-                            travail de précision.
+                            travail de précision !
                         </p>
                         <p class="point">●</p>
                     </div>
