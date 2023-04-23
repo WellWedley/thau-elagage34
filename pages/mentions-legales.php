@@ -12,18 +12,17 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53DNTXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php
-    include_once './header.php';
+    include_once 'header.php';
     ?>
     <div class="mentions_wrap">
         <div class="mentions_title">
-        <h1 class="mentions_title">MENTIONS LÉGALES</h1>
+            <h1 class="mentions_title">MENTIONS LÉGALES</h1>
         </div>
         <div class="mention-details identification">
             <h1>IDENTIFICATION</h1>
-            <p>Le contenu du site Thau Élagage  est disponible à l'adresse :
-                <a class="link site_link"
-                   href="https://thau-elagage34.fr"
-                   target="_blank">https://thau-elagage34.fr</a></p>
+            <p>Le contenu du site Thau Élagage est disponible à l'adresse :
+                <a class="link site_link" href="https://thau-elagage34.fr" target="_blank">https://thau-elagage34.fr</a>
+            </p>
         </div>
 
         <div class="mention-details identification">
@@ -54,20 +53,20 @@
                 </p>
 
                 <h2>
-                   Courrier électronique  :
+                    Courrier électronique :
                 </h2>
                 <p>
                     <a href="mailto:esa.colo.34@gmail.com ">mail: esa.colo.34@gmail.com </a>
                 </p>
 
                 <h2>
-                  Forme sociale :
+                    Forme sociale :
                 </h2>
                 <p>
                     EI ( Entreprise individuelle )
                 </p>
                 <h2>
-                 SIREN :
+                    SIREN :
                 </h2>
                 <p>
                     833 330 632
@@ -87,12 +86,12 @@
                     Raison sociale :
                 </h2>
                 <p>
-               PLANET HOSTER
+                    PLANET HOSTER
                 </p>
 
 
                 <h2>
-                   Adresse :
+                    Adresse :
                 </h2>
                 <p>
                     4416 Louis B. Mayer, Laval (Québec) H7P 0G1, Canada
